@@ -43,14 +43,14 @@ html::-webkit-scrollbar-track {
 }
 
 html::-webkit-scrollbar-thumb {
-  background: #1e1c1c;
+  background: #fff;
   border-radius: 5rem;
 }
 
 
 body {
-  background: rgb(2, 0, 36);
-  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 17, 121, 0.9249824929971989) 80%, rgba(2, 0, 30, 1) 100%);
+  background:  #000;
+  /* background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 17, 121, 0.9249824929971989) 80%, rgba(2, 0, 30, 1) 100%); */
 }
 
 section {
@@ -68,7 +68,7 @@ section {
 }
 
 .heading span {
-  background: #000;
+  background: cornsilk;
   color: var(--orange);
   display: inline-block;
   padding: 0.5rem 3rem;
@@ -192,7 +192,7 @@ header.change .icons div:hover {
   z-index: 1000;
   height: 100%;
   width: 100%;
-  background: rgba(251, 251, 251, 0.9);
+  background:#000;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -211,13 +211,13 @@ header.change .icons div:hover {
   position: absolute;
   top: 1.5rem;
   right: 3rem;
-  color: var(--black);
+  color:  var(--orange);
   font-size: 4rem;
   cursor: pointer;
 }
 
 .header .logIn-form #close-login-form:hover {
-  color: dimgray;
+  color: gray;
 }
 
 .header .logIn-form #close-login-form.active {
@@ -227,14 +227,14 @@ header.change .icons div:hover {
 
 
 .header .logIn-form .search-form {
-  width: 50rem;
-  height: 4.4rem;
-  background: var(--black);
+  width: 80rem;
+  height: 5.4rem;
+  background: #000;
   border-radius: 4rem;
   overflow: hidden;
   display: flex;
   align-items: center;
-  box-shadow: var(--box-shadow);
+  box-shadow: 0 0.5rem  0.5rem rgb(230, 232, 255,0.1);
 
 
 }
@@ -246,7 +246,7 @@ header.change .icons div:hover {
   width: 100%;
   background: none;
   text-transform: none;
-  font-size: 1.6rem;
+  font-size: 2rem;
   color: #fff;
   font-weight: 500;
   padding: 0 1rem;
@@ -254,11 +254,13 @@ header.change .icons div:hover {
 }
 .header .logIn-form .search-form input::placeholder{
   color: #eee;
+  font-size: 2rem;
+  font-weight: 300;
 }
 
 .header .logIn-form .search-form label {
   padding: 0 2rem;
-  font-size: 2.2rem;
+  font-size: 3rem;
   color: #fff;
   cursor: pointer;
 
@@ -379,11 +381,11 @@ header.change .icons div:hover {
   top: 110%;
   right: -110%;
   background: #ffffff;
-  width: 30rem;
+  width: 34rem;
   text-align: center;
 
   border-radius: 1.5rem;
-  padding: 1rem;
+  padding: 1.5rem;
   box-shadow: var(--box-shadow);
 
 }
@@ -403,7 +405,7 @@ header.change .icons div:hover {
 
 .header .login-form div {
   border-radius: 1.5rem;
-  padding: 1rem 1rem;
+  padding: 1rem 2rem;
   margin: 2rem 2rem;
   background: #fff;
 
@@ -424,7 +426,7 @@ header.change .icons div:hover {
 }
 
 .header .login-form label {
-  margin-right: 2rem;
+  margin-right: 4rem;
   font-size: 1.4rem;
   color: var(--black);
 
@@ -518,7 +520,7 @@ header.change .icons div:hover {
   background: #fff;
   
   padding: 3rem 2rem;
-  outline: var(--outline);
+  outline:var(--outline);
   outline-offset: -1rem;
   margin: 2rem 1rem;
   border-radius: 1rem;
@@ -535,7 +537,7 @@ header.change .icons div:hover {
 }
 
 .features .box-container .box:hover {
-  outline: var(--outline-hover); 
+  outline: var(--outline-hover);
   outline-offset: 0rem;
   
 }
@@ -968,10 +970,11 @@ footer span {
   }
 
   .header .logIn-form .search-form {
-    width: 35rem;
+    width: 42rem;
   }
 
   .footer .box-container .box {
     border-bottom: var(--border);
   }
+   
 }
